@@ -1,0 +1,26 @@
+Paradygmaty programowania - æwiczenia
+Lista 1
+Wszystkie funkcje nale¿y napisaæ w obu jêzykach: OCaml i Scala. W specyfikacjach jest
+wykorzystywana notacja OCamla, poniewa¿ jest prostsza. W programach mo¿na u¿ywaæ
+wy³¹cznie konstrukcji jêzykowych przedstawionych na wyk³adach!
+
+1. Zdefiniuj funkcjê flatten : 'a list list -> 'a list, która dla argumentu bêd¹cego list¹ list
+ tworzy listê, z³o¿on¹ z elementów wszystkich podlist z zachowaniem ich kolejnoœci,
+ np. flatten [[5;6];[1;2;3]] zwraca [5; 6; 1; 2; 3], czyli sp³aszcza listê o jeden poziom.
+
+2. Zdefiniuj funkcjê count : 'a * 'a list -> int obliczaj¹c¹ ile razy dany obiekt wystêpuje
+ w danej liœcie, np. count ('a', ['a'; 'l'; 'a']) zwraca 2.
+
+3. Zdefiniuj funkcjê duplicate: 'a * int -> 'a list powtarzaj¹c¹ dany obiekt okreœlon¹ liczbê
+ razy i zwracaj¹c¹ wynik w postaci listy, np. duplicate ("la",3) zwraca ["la"; "la"; "la"].
+
+4. Zdefiniuj funkcjê sqrList : int list -> int list podnosz¹c¹ do kwadratu wszystkie elementy
+ danej listy liczb, np. sqrList [1;2;3;-4] zwraca [1; 4; 9; 16].
+
+5. Zdefiniuj funkcjê palindrome : 'a list -> bool sprawdzaj¹c¹, czy dana lista jest
+ palindromem, tj. równa siê sobie samej przy odwróconej kolejnoœci elementów,
+ np. palindrome ['a'; 'l'; 'a']} zwraca true.
+
+6. Zdefiniuj funkcjê listLength : 'a list -> int, obliczaj¹c¹ d³ugoœæ dowolnej listy.
+
+7. Zdefiniuj funkcjê listAppend, konkatenuj¹c¹ dwie listy. 
